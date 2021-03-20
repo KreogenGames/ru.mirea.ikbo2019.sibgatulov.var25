@@ -2,11 +2,12 @@ package Practice_5;
 
 public class SingletonDoubleChLog {
     private static volatile SingletonDoubleChLog INSTANCE;
-    /*Потокобезопасно, высокая производительность в многопоточной среде.
-        Не поддерживается на ранних версиях Java. Ниже 1.5.
-        Не будет корректно работать без volatile или финал*/
+
     private SingletonDoubleChLog() {
-        System.out.println("Singleton Double Checked Locking");
+        System.out.println("Singleton Double Checked Locking. \n" +
+                "Потокобезопасно, высокая производительность в многопоточной среде.\n" +
+                "Не поддерживается на ранних версиях Java, ниже 1.5.\n" +
+                "Не будет корректно работать без volatile или final");
     }
 
     public static SingletonDoubleChLog getInstance() {

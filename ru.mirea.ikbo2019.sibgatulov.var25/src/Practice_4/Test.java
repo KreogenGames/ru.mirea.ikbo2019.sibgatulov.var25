@@ -1,4 +1,4 @@
-package FourthPractice;
+package Practice_4;
 
 import java.util.concurrent.ExecutionException;
 

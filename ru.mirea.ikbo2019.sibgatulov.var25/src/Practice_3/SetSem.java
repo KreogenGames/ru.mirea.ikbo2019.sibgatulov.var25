@@ -1,4 +1,4 @@
-package ThirdPractice;
+package Practice_3;
 
 import java.util.ArrayList;
 import java.util.Collection;

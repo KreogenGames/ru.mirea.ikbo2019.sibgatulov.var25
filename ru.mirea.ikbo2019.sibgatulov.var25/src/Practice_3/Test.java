@@ -1,4 +1,4 @@
-package ThirdPractice;
+package Practice_3;
 
 public class Test {
     static class thread extends Thread {

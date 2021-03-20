@@ -1,4 +1,4 @@
-package FirstPractice;
+package Practice_1;
 
 import java.util.function.Predicate;
 
